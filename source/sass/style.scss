@@ -1,4 +1,15 @@
-// Vendor
-// ---------------------------------
+// Vendor ---------------------------------
 
-@import "vendor/normalize";
+@import "./vendor/normalize.scss";
+
+// Base ---------------------------------
+
+@import "./base/variables.scss";
+@import "./base/mixins.scss";
+@import "./base/fonts.scss";
+@import "./base/fonts-styles.scss";
+@import "./base/page.scss";
+@import "./base/visually-hidden";
+@import "./base/container.scss";
+
+
