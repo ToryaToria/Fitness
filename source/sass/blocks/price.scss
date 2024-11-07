@@ -1,0 +1,51 @@
+.price {
+	// padding: 40px 149px;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: $color-bg-primary;
+}
+
+.price__title {
+	margin-bottom: 30px;
+	// margin-left: 35px;
+	// margin-right: 35px;
+}
+
+.price__month {
+	@include list-reset;
+	// margin-left: 35px;
+	// margin-right: 35px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid $color-line-month;
+	margin-bottom: 30px;
+}
+
+.price__month-btn {
+	@include btn-reset;
+	padding-bottom: 10px;
+	opacity: 0.5;
+
+	&--active {
+		border-bottom: 2px solid $color-line;
+		opacity: 1;
+	}
+}
+
+.price__cards-list {
+	@include list-reset;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.price__card {
+	padding: 50px 42px;
+	background-color: $color-white;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	align-items: center;
+}

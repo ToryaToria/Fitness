@@ -1,7 +1,7 @@
 // FONTS
-
-$font-base: "RobotoCondensed", arial, sans-serif;
-$font-secondary: "AlumniSans", impact, sans-serif;
+;
+$font-secondary:"AlumniSans", impact, sans-serif;
+$font-base: "RobotoCondensed", arial, sans-serif; 
 
 
 // COLORS
@@ -24,10 +24,15 @@ $color-bg-accent: #ED0233;
 $color-bg-secondary: #1C3374;
 $color-bg-footer: #030A1A;
 
+$color-bg-grad: #1C3477;
+
+
+
 
 //  для линий
 $color-line: #D10A42; // 20%
 $color-divider: #74819C; //разделитель
+$color-line-month: rgba(120, 120, 120, 0.2);
 
 //  для форм
 $color-error: #ff8282;

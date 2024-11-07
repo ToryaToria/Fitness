@@ -1,0 +1,21 @@
+.games {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: $color-bg-accent;
+
+	&--img {
+		display: block;
+		background-color: $color-price;
+width: 100%;
+height: 290px;
+	}
+}
+
+.games__wrapp {
+	display: flex;
+}
+
+.games__text {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}

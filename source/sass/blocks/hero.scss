@@ -1,0 +1,38 @@
+.hero {
+	padding-bottom: 32px;
+	background-color: $color-bg-grad;
+	text-align: right;
+}
+
+.hero__wrapp {
+	padding-top: 16px;
+padding-bottom: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__title {
+	margin-top: 14px;
+}
+
+.hero__contein {
+	margin-top: 48px;
+
+	display: grid;
+}
+
+.hero__button {
+margin-top: 48px;	
+}
+
+.hero__list {
+	@include list-reset;
+}
+
+.hero__img {
+	display: none;
+
+	@include media-tablet {
+	display: block;
+	}
+}
